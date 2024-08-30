@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Programas/Js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PWDC"
+	}
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera Web</title>
+    <script src="https://kit.fontawesome.com/d6683e144d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formStyle.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    
+    <header>
+        
+        <a href="index.html" id="logo-pagina"><i class="fa-solid fa-code"></i></i></a>
+
+        
+
+        <nav class="navbar">
+            
+            <!--Button para pantallas pequeñas-->
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <ul class="menu">
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="#section-1">Acerca de mi</a></li>
+                <li><a href="#section-3">Trabajos</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+        <video src=""></video>
+
+
+    </header>
+    <main id="seccion-principal">
+        <section id="section-1" class="section-1">
+            <div class="acerca">
+                <h2>Acerca de mi</h2>
+                <p class="parrafo1">¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.</p>
+                <p class="parrafo2">Me llamo <strong>Jordi Bolo</strong>, nací en Pomabamba, Ancash y vivo en San Martin de Porres. Me gusta el helado y salir a pasear en días de sol. Me encantaría aprender a programar para poder ayudar a las personas a mostrar lo que hacen.</p>
+            </div>
+            <div class="acerca-imagen"><img id="myPhoto" src="img/hero-img.jpg" alt="imagen personal""></div>
+        </section>
+
+        <section class="section-2">
+            <img src="img/neom-HYHYGLs-Rp8-unsplash.jpg" alt="imagen de carrusel">
+        </section>
+
+        <section id="section-3" class="section-3">
+            <h3>Trabajos</h3>
+            <div class="works-containers">
+                <div class="work-container">
+                    <img src="img/delivery-unit.PNG" alt="Imagen delivey unir" width="100%">
+                    <h4>Delivery Unit</h4>
+                    <p>Web app desarrollado para el seguimiento de las actividades del Programa de Creación de Redes Integradas de Salud</p>
+                    <a href="">Leer más</a>
+                </div>
+                <div class="work-container">
+                    <img src="" alt="">
+                    <h4>Calculador de Taludes</h4>
+                    <p>Blablablabl advad addcd daddcdc</p>
+                    <a href="">Leer más</a>
+                </div>
+                <div class="work-container">
+                    <img src="" alt="">
+                    <h4>Sistema de asistencias</h4>
+                    <p>Blablablabl advad addcd daddcdc</p>
+                    <a href="">Leer más</a>
+                </div>
+                <div class="work-container">
+                    <img src="" alt="">
+                    <h4>Titulo 1</h4>
+                    <p>Blablablabl advad addcd daddcdc</p>
+                    <a href="">Leer más</a>
+                </div>
+                <div class="work-container">
+                    <img src="" alt="">
+                    <h4>Titulo 1</h4>
+                    <p>Blablablabl advad addcd daddcdc</p>
+                    <a href="">Leer más</a>
+                </div>
+                <div class="work-container">
+                    <img src="" alt="">
+                    <h4>Titulo 1</h4>
+                    <p>Blablablabl advad addcd daddcdc</p>
+                    <a href="">Leer más</a>
+                </div>
+            </div>
+       
+        </section>
+        <section class="contacto" id="contacto">
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="pepe@gmail.com"
+                    />
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <button>Enviar</button>
+                </div>
+
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <h3>Redes sociales</h3>
+        <ul class="redes-sociales">
+            <li><a href="https://www.linkedin.com/in/c%C3%A9sar-jordi-bolo-caldas-94b542102/"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/jordy.bc15?locale=es_LA"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=51987176450&text=hola,%20qué%20tal?"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://www.instagram.com/jordybc15/"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+        <a href="https://api.whatsapp.com/send?phone=51987176450&text=hola,%20qué%20tal?" id="whatsapp-logo"><i class="fa-brands fa-whatsapp"></i></a>
+    </footer>
+    <script src="form.js"></script>
+</body>
+</html>

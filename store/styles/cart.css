@@ -1,0 +1,110 @@
+main {
+  justify-content: space-around;
+  height: auto;
+  overflow-y: scroll;
+}
+
+/* cart products section */
+
+#cartproducts {
+  display: flex;
+  
+  flex-direction: column;
+  
+}
+
+.cart-item {
+  border-radius: 10px;
+  background-color: rgba(243, 247, 247, 0.93);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 20px;
+  max-width: 800px;
+  min-width: 250px;
+  align-items: center;
+  margin-bottom: 25px;
+  
+}
+
+.cart-img {
+  width: 80px;
+  height: 80px;
+  padding-right: 20px;
+}
+
+.product-cart-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  
+}
+
+
+.product-cart-info p {
+    margin-bottom: 11px;
+}
+
+.product-amount {
+  border-radius: 5px;
+  border: none;
+  width: 50px;
+  height: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.product-subtotal{
+    font-weight: bold;
+}
+/* total section */
+
+#total {
+  height: auto; /* Changed from fixed height to auto for flexibility */
+  border-radius: 10px;
+  background-color: rgba(243, 247, 247, 0.93);
+  padding: 20px;
+  margin: 20px; /* Consistent margin */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#total div {
+  display: flex;
+  justify-content: space-between; /* Space between the elements */
+  width: 100%; /* Full width to align items properly */
+  margin-bottom: 15px; /* Space below subtotal */
+}
+
+#total h2 {
+  
+  font-size: 1.5em; /* Larger font size for title */
+}
+
+#total h3 {
+  margin-top: 20px; /* Reduced margin for subtitle */
+  font-size: 1.2em;
+  color: #333; /* Darker color for better readability */
+}
+
+#total p {
+    margin-top: 20px;
+  font-size: 1em; /* Unified font size for paragraphs */
+}
+
+.finish-buy {
+  margin-top: 20px;
+    padding: 10px 20px; /* Padding for button */
+  font-size: 1em;
+  background-color: #af6b4c; /* A green color for the button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.finish-buy:hover {
+  background-color: #a05c45; /* Slightly darker on hover */
+}

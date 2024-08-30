@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../../../Programas/Js/jamming"
+		},
+		{
+			"name": "codecademy-jammming",
+			"path": "../../../Programas/Js/jammingByCodeCademy/codecademy-jammming"
+		},
+		{
+			"name": "Complete-React-Tutorial",
+			"path": "../../../Programas/Git/dojo-react-tutorial/Complete-React-Tutorial"
+		},
+		{
+			"name": "Complete-React-Tutorial-1",
+			"path": "../../../Programas/Git/dojo-react-tutorial/Complete-React-Tutorial-1"
+		},
+		{
+			"path": "../../JS_Introduccion-master/JS_Introduccion-master/FINAL_HTML"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "store"
+	}
+}
